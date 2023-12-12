@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 272,
+  "serverMaxRevisionCounter": 288,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -326,7 +326,7 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 13,
+      "serverRevisionCounter": 283,
       "lastRetrievedFromServer": 13,
       "memberType": "Profile",
       "isNameObsolete": false
@@ -752,26 +752,26 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__studentBrowser": {
-      "serverRevisionCounter": 245,
-      "lastRetrievedFromServer": 245,
+      "serverRevisionCounter": 285,
+      "lastRetrievedFromServer": 285,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentBrowser/studentBrowser.js": {
-      "serverRevisionCounter": 246,
-      "lastRetrievedFromServer": 246,
+      "serverRevisionCounter": 286,
+      "lastRetrievedFromServer": 286,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentBrowser/studentBrowser.js-meta.xml": {
-      "serverRevisionCounter": 247,
-      "lastRetrievedFromServer": 247,
+      "serverRevisionCounter": 287,
+      "lastRetrievedFromServer": 287,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentBrowser/studentBrowser.html": {
-      "serverRevisionCounter": 248,
-      "lastRetrievedFromServer": 248,
+      "serverRevisionCounter": 288,
+      "lastRetrievedFromServer": 288,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -830,32 +830,32 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__studentTile": {
-      "serverRevisionCounter": 268,
-      "lastRetrievedFromServer": 268,
+      "serverRevisionCounter": 278,
+      "lastRetrievedFromServer": 278,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentTile/studentTile.html": {
-      "serverRevisionCounter": 269,
-      "lastRetrievedFromServer": 269,
+      "serverRevisionCounter": 279,
+      "lastRetrievedFromServer": 279,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentTile/studentTile.js": {
-      "serverRevisionCounter": 270,
-      "lastRetrievedFromServer": 270,
+      "serverRevisionCounter": 280,
+      "lastRetrievedFromServer": 280,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentTile/studentTile.css": {
-      "serverRevisionCounter": 271,
-      "lastRetrievedFromServer": 271,
+      "serverRevisionCounter": 281,
+      "lastRetrievedFromServer": 281,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__studentTile/studentTile.js-meta.xml": {
-      "serverRevisionCounter": 272,
-      "lastRetrievedFromServer": 272,
+      "serverRevisionCounter": 282,
+      "lastRetrievedFromServer": 282,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -881,6 +881,12 @@
       "serverRevisionCounter": 252,
       "lastRetrievedFromServer": 252,
       "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "ApexClass__StudentBrowser": {
+      "serverRevisionCounter": 284,
+      "lastRetrievedFromServer": 284,
+      "memberType": "ApexClass",
       "isNameObsolete": false
     }
   }
