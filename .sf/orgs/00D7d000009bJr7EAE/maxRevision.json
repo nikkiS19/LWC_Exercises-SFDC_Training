@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 288,
+  "serverMaxRevisionCounter": 308,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -326,8 +326,8 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 283,
-      "lastRetrievedFromServer": 13,
+      "serverRevisionCounter": 289,
+      "lastRetrievedFromServer": 289,
       "memberType": "Profile",
       "isNameObsolete": false
     },
@@ -812,8 +812,8 @@
       "isNameObsolete": false
     },
     "FlexiPage__AwInstructors": {
-      "serverRevisionCounter": 207,
-      "lastRetrievedFromServer": 207,
+      "serverRevisionCounter": 308,
+      "lastRetrievedFromServer": 308,
       "memberType": "FlexiPage",
       "isNameObsolete": false
     },
@@ -884,9 +884,33 @@
       "isNameObsolete": false
     },
     "ApexClass__StudentBrowser": {
-      "serverRevisionCounter": 284,
-      "lastRetrievedFromServer": 284,
+      "serverRevisionCounter": 290,
+      "lastRetrievedFromServer": 290,
       "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__studentDetail": {
+      "serverRevisionCounter": 292,
+      "lastRetrievedFromServer": 292,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__studentDetail/studentDetail.html": {
+      "serverRevisionCounter": 293,
+      "lastRetrievedFromServer": 293,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__studentDetail/studentDetail.js": {
+      "serverRevisionCounter": 294,
+      "lastRetrievedFromServer": 294,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__studentDetail/studentDetail.js-meta.xml": {
+      "serverRevisionCounter": 295,
+      "lastRetrievedFromServer": 295,
+      "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }
   }
