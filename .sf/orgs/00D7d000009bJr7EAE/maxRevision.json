@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 554,
+  "serverMaxRevisionCounter": 556,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -1103,6 +1103,18 @@
       "serverRevisionCounter": 551,
       "lastRetrievedFromServer": 551,
       "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "AuraDefinitionBundle__AwApp": {
+      "serverRevisionCounter": 555,
+      "lastRetrievedFromServer": 555,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__AwApp/AwApp.app": {
+      "serverRevisionCounter": 556,
+      "lastRetrievedFromServer": 556,
+      "memberType": "AuraDefinition",
       "isNameObsolete": false
     }
   }
