@@ -26,6 +26,7 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>Certification__c</tabs>
+    <tabs>AwInstructors_Cmp_Tab</tabs>
     <tabs>Course__c</tabs>
     <tabs>Course_Delivery__c</tabs>
     <tabs>standard-File</tabs>
