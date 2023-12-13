@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 588,
+  "serverMaxRevisionCounter": 598,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -326,7 +326,7 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 575,
+      "serverRevisionCounter": 589,
       "lastRetrievedFromServer": 543,
       "memberType": "Profile",
       "isNameObsolete": false
@@ -1028,26 +1028,26 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__layoutManager": {
-      "serverRevisionCounter": 585,
-      "lastRetrievedFromServer": 585,
+      "serverRevisionCounter": 595,
+      "lastRetrievedFromServer": 595,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__layoutManager/layoutManager.html": {
-      "serverRevisionCounter": 586,
-      "lastRetrievedFromServer": 586,
+      "serverRevisionCounter": 596,
+      "lastRetrievedFromServer": 596,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__layoutManager/layoutManager.js-meta.xml": {
-      "serverRevisionCounter": 587,
-      "lastRetrievedFromServer": 587,
+      "serverRevisionCounter": 597,
+      "lastRetrievedFromServer": 597,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__layoutManager/layoutManager.js": {
-      "serverRevisionCounter": 588,
-      "lastRetrievedFromServer": 588,
+      "serverRevisionCounter": 598,
+      "lastRetrievedFromServer": 598,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -1210,6 +1210,36 @@
     "LightningComponentResource__awNavigation/awNavigation.js": {
       "serverRevisionCounter": 579,
       "lastRetrievedFromServer": 579,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "ApexClass__CertifiedStudentList": {
+      "serverRevisionCounter": 590,
+      "lastRetrievedFromServer": 590,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__certifiedStudentList": {
+      "serverRevisionCounter": 591,
+      "lastRetrievedFromServer": 591,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__certifiedStudentList/certifiedStudentList.js-meta.xml": {
+      "serverRevisionCounter": 592,
+      "lastRetrievedFromServer": 592,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__certifiedStudentList/certifiedStudentList.js": {
+      "serverRevisionCounter": 593,
+      "lastRetrievedFromServer": 593,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__certifiedStudentList/certifiedStudentList.html": {
+      "serverRevisionCounter": 594,
+      "lastRetrievedFromServer": 594,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }
