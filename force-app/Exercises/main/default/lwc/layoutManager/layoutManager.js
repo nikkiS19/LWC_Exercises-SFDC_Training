@@ -6,18 +6,29 @@ const VIEW_CERTIFICATION = 'certifiedStudents';
 const VIEW_POPULARITY = 'certPopularity';
 
 export default class LayoutManager extends LightningElement {
-
+	modalHeader = '';
+	modalContent = '';
 	viewMode = VIEW_STUDENT_BROWSER;
 	certificationName = '';
 	certificationId = 0;
 	connectedCallback() {
 		Utils.showToast(
 			this,
-			'Welcome',"Don't forget to check back here for updated classschedules and assignments",'info');
+			'Welcome', "Don't forget to check back here for updated classschedules and assignments", 'info');
 	}
+	handleShowModal(event) {
+		this.modalHeader = event.detail.header;
+		this.modalContent = event.detail.content;
+		const modal = this.template.querySelector('c-modal');
+		modal.show();
+	}
+	closeModal() {
+		const modal = this.template.querySelector('c-modal');
+		modal.hide();
+		}
 	handleNavItemSelected(event) {
 		const selectedItemName = event.detail.itemName;
-		
+
 		if (selectedItemName === 'students') {
 			this.viewMode = VIEW_STUDENT_BROWSER;
 		} else if (selectedItemName === 'tripreports') {
