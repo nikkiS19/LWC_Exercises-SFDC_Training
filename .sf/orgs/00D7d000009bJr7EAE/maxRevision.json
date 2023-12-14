@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 841,
+  "serverMaxRevisionCounter": 849,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -326,7 +326,7 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 650,
+      "serverRevisionCounter": 843,
       "lastRetrievedFromServer": 650,
       "memberType": "Profile",
       "isNameObsolete": false
@@ -1373,6 +1373,48 @@
       "serverRevisionCounter": 841,
       "lastRetrievedFromServer": 841,
       "memberType": "Translations",
+      "isNameObsolete": false
+    },
+    "StaticResource__chart": {
+      "serverRevisionCounter": 842,
+      "lastRetrievedFromServer": 842,
+      "memberType": "StaticResource",
+      "isNameObsolete": false
+    },
+    "ApexClass__CertPopularity": {
+      "serverRevisionCounter": 844,
+      "lastRetrievedFromServer": 844,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__certPopularity": {
+      "serverRevisionCounter": 845,
+      "lastRetrievedFromServer": 845,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__certPopularity/certPopularity.js": {
+      "serverRevisionCounter": 849,
+      "lastRetrievedFromServer": 849,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__certPopularity/certPopularity.css": {
+      "serverRevisionCounter": 846,
+      "lastRetrievedFromServer": 846,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__certPopularity/certPopularity.js-meta.xml": {
+      "serverRevisionCounter": 847,
+      "lastRetrievedFromServer": 847,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__certPopularity/certPopularity.html": {
+      "serverRevisionCounter": 848,
+      "lastRetrievedFromServer": 848,
+      "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }
   }
