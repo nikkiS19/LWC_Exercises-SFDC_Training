@@ -1,5 +1,5 @@
 import { LightningElement, wire } from 'lwc';
-
+import { NavigationMixin } from 'lightning/navigation';
 // TODO #1: import the getRecord, getFieldValue, and getFieldDisplayValue functions from lightning/uiRecordApi.
 import { getRecord,getFieldValue,getFieldDisplayValue } from 'lightning/uiRecordApi';
 // TODO #2: We've imported the name field and placed it into an array for you.
@@ -11,7 +11,7 @@ import { subscribe, unsubscribe, MessageContext } from 'lightning/messageService
 import FIELD_Name from '@salesforce/schema/Contact.Name';
 const fields = [FIELD_Name,DESCRIPTION,EMAIL,PHONE];
 import SELECTED_STUDENT_CHANNEL from '@salesforce/messageChannel/SelectedStudentChannel__c';
-export default class StudentDetail extends LightningElement {
+export default class StudentDetail extends NavigationMixin(LightningElement) {
 
 	// TODO #3: locate a valid Contact ID in your scratch org and store it in the studentId property.
 	// Example: studentId = '003S000001SBAXEIA5';
@@ -73,5 +73,13 @@ export default class StudentDetail extends LightningElement {
 			unsubscribe(this.subscription);
 			this.subscription = null;
 			}	
-	
+	recordDetail(){
+		this[NavigationMixin.Navigate]({
+			type: 'standard__recordPage',
+			attributes: {
+				recordId: this.studentId,
+				actionName: 'view'
+			}
+		});
+	} 
 }
