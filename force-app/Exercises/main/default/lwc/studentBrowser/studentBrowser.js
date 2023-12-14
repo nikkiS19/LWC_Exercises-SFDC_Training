@@ -1,4 +1,4 @@
-import { LightningElement, wire } from 'lwc';
+import { LightningElement, wire, api } from 'lwc';
 import getStudents from '@salesforce/apex/StudentBrowser.getStudents';
 import { publish, MessageContext } from 'lightning/messageService';
 import SELECTED_STUDENT_CHANNEL from '@salesforce/messageChannel/SelectedStudentChannel__c';
@@ -39,6 +39,16 @@ export default class StudentBrowser extends NavigationMixin(LightningElement) {
         this.updateSelectedStudent(studentId);
     }
     updateSelectedStudent(studentId) {
+        const grid =
+            this.template.querySelector('c-responsive-datatable');
+        const gallery =
+            this.template.querySelector('c-student-tiles');
+        if (gallery) {
+            gallery.setSelectedStudent(studentId);
+        }
+        if (grid) {
+            grid.setSelectedRecord(studentId);
+        }
         publish(this.messageContext, SELECTED_STUDENT_CHANNEL, {
             studentId: studentId
         });
@@ -57,5 +67,6 @@ export default class StudentBrowser extends NavigationMixin(LightningElement) {
     handleRowClick(event) {
         const studentId = event.detail.pk;
         this.updateSelectedStudent(studentId);
-        }
+    }
+    
 }
