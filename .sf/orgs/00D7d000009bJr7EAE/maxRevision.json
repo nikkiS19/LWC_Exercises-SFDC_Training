@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 648,
+  "serverMaxRevisionCounter": 655,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -326,7 +326,7 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 603,
+      "serverRevisionCounter": 650,
       "lastRetrievedFromServer": 543,
       "memberType": "Profile",
       "isNameObsolete": false
@@ -1240,6 +1240,36 @@
     "LightningComponentResource__certifiedStudentList/certifiedStudentList.html": {
       "serverRevisionCounter": 608,
       "lastRetrievedFromServer": 608,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "ApexClass__Contacts": {
+      "serverRevisionCounter": 651,
+      "lastRetrievedFromServer": 651,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__challenge_contactDirectory": {
+      "serverRevisionCounter": 652,
+      "lastRetrievedFromServer": 652,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__challenge_contactDirectory/challenge_contactDirectory.js": {
+      "serverRevisionCounter": 653,
+      "lastRetrievedFromServer": 653,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__challenge_contactDirectory/challenge_contactDirectory.js-meta.xml": {
+      "serverRevisionCounter": 654,
+      "lastRetrievedFromServer": 654,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__challenge_contactDirectory/challenge_contactDirectory.html": {
+      "serverRevisionCounter": 655,
+      "lastRetrievedFromServer": 655,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }
