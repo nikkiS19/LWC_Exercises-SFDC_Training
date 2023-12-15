@@ -1,7 +1,7 @@
 import { LightningElement,wire } from 'lwc';
 import getContacts from '@salesforce/apex/Contacts.getContacts'; 
 export default class Challenge_contactDirectory extends LightningElement {
-    error; contactId;contactsFiltered;
+    error; contactId; firstLetter = ''; 
     letters = ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
     columnConfig = [
         {
@@ -18,13 +18,6 @@ export default class Challenge_contactDirectory extends LightningElement {
             type: 'phone'
         }
     ];
-    @wire(getContacts,{firstLetter :''})
-    getContactsbyFilter(result){
-            this.contactsFiltered = [];
-            if(result.data){
-                this.contactsFiltered = result.data.map(); 
-            }else if (result.error) {
-                this.error = result.error;
-            } 
-        } 
+    @wire(getContacts,{firstLetter :'$firstLetter'})
+    contacts;
     }
