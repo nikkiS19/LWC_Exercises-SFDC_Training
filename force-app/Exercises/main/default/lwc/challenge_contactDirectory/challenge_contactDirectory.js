@@ -2,22 +2,28 @@ import { LightningElement,wire } from 'lwc';
 import getContacts from '@salesforce/apex/Contacts.getContacts'; 
 export default class Challenge_contactDirectory extends LightningElement {
     error; contactId; firstLetter = ''; 
-    letters = ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
+    letters = ('a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z').toUpperCase().split(',');	
     columnConfig = [
-        {
-            label: 'Name',
-            fieldName: 'name',
-            type: 'text'
-        }, {
-            label: 'Email',
-            fieldName: 'email',
-            type: 'email'
-        }, {
-            label: 'Phone',
-            fieldName: 'phone',
-            type: 'phone'
-        }
-    ];
+		{
+			label: 'Name',
+			fieldName: 'Name',
+			type: 'text'
+		},
+		{
+			label: 'Email',
+			fieldName: 'Email',
+			type: 'email'
+		},
+		{
+			label: 'Phone',
+			fieldName: 'Phone',
+			type: 'phone'
+		}
+	];
     @wire(getContacts,{firstLetter :'$firstLetter'})
     contacts;
+
+    onLetterSelect(event) { 
+		this.firstLetter = event.detail.value;
+	}
     }
