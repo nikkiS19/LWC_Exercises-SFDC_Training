@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 930,
+  "serverMaxRevisionCounter": 978,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -1028,26 +1028,26 @@
       "isNameObsolete": false
     },
     "LightningComponentBundle__layoutManager": {
-      "serverRevisionCounter": 915,
-      "lastRetrievedFromServer": 915,
+      "serverRevisionCounter": 931,
+      "lastRetrievedFromServer": 931,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__layoutManager/layoutManager.html": {
-      "serverRevisionCounter": 916,
-      "lastRetrievedFromServer": 916,
+      "serverRevisionCounter": 932,
+      "lastRetrievedFromServer": 932,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__layoutManager/layoutManager.js-meta.xml": {
-      "serverRevisionCounter": 917,
-      "lastRetrievedFromServer": 917,
+      "serverRevisionCounter": 933,
+      "lastRetrievedFromServer": 933,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__layoutManager/layoutManager.js": {
-      "serverRevisionCounter": 918,
-      "lastRetrievedFromServer": 918,
+      "serverRevisionCounter": 934,
+      "lastRetrievedFromServer": 934,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -1438,6 +1438,30 @@
     "LightningComponentResource__tripReportForm/tripReportForm.js": {
       "serverRevisionCounter": 922,
       "lastRetrievedFromServer": 922,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__tripReportFormAdvanced": {
+      "serverRevisionCounter": 975,
+      "lastRetrievedFromServer": 975,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__tripReportFormAdvanced/tripReportFormAdvanced.js-meta.xml": {
+      "serverRevisionCounter": 976,
+      "lastRetrievedFromServer": 976,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__tripReportFormAdvanced/tripReportFormAdvanced.js": {
+      "serverRevisionCounter": 977,
+      "lastRetrievedFromServer": 977,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__tripReportFormAdvanced/tripReportFormAdvanced.html": {
+      "serverRevisionCounter": 978,
+      "lastRetrievedFromServer": 978,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }
