@@ -1,14 +1,15 @@
 public with sharing class Contacts {
-    /*@Auraenabled
-    public static getContacts(String firstLetter) {
-        /*if (String.isEmpty(firstLetter)) {
+    @AuraEnabled
+    public static List<Contact> getContacts(String firstLetter){
+        List<Contact> myContacts = new List<Contact>();
+        if (String.isEmpty(firstLetter)) {
             myContacts = [
             SELECT Id, Name, Email, Phone
             FROM Contact
             WITH SECURITY_ENFORCED
             ORDER BY Name
             ];
-            } else {
+            } else {  
             String filterVar = firstLetter + '%';
             myContacts = [
             SELECT Id, Name, Email, Phone
@@ -18,5 +19,6 @@ public with sharing class Contacts {
             ORDER BY Name
             ];
             }
-    } */
+        return myContacts;    
+    }
 }
