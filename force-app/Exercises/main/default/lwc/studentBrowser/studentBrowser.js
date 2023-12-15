@@ -4,10 +4,16 @@ import { publish, MessageContext } from 'lightning/messageService';
 import SELECTED_STUDENT_CHANNEL from '@salesforce/messageChannel/SelectedStudentChannel__c';
 import { NavigationMixin } from 'lightning/navigation';
 export default class StudentBrowser extends NavigationMixin(LightningElement) {
-    selectedDeliveryId = '';
+    selectedDeliveryId = ''; students = [];
     selectedInstructorId = '';
     @wire(getStudents, { instructorId: '$selectedInstructorId', courseDeliveryId: '$selectedDeliveryId' })
-    students;
+    wired_getStudents(result) {
+        if ((result.data) || (result.error)) {
+            this.students = result;
+            this.dispatchEvent(new CustomEvent("doneloading",
+                { bubbles: true, composed: true }));
+        }
+    }
     cols = [
         {
             fieldName: "Name",
@@ -33,6 +39,8 @@ export default class StudentBrowser extends NavigationMixin(LightningElement) {
     handleFilterChange(event) {
         this.selectedDeliveryId = event.detail.deliveryId;
         this.selectedInstructorId = event.detail.instructorId;
+        this.dispatchEvent(new CustomEvent('loading',
+            { bubbles: true, composed: true }));
     }
     handleStudentSelected(event) {
         const studentId = event.detail.studentId;
@@ -68,5 +76,5 @@ export default class StudentBrowser extends NavigationMixin(LightningElement) {
         const studentId = event.detail.pk;
         this.updateSelectedStudent(studentId);
     }
-    
+
 }

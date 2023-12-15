@@ -6,7 +6,7 @@ const VIEW_CERTIFICATION = 'certifiedStudents';
 const VIEW_POPULARITY = 'certPopularity';
 
 export default class LayoutManager extends LightningElement {
-	modalHeader = '';
+	modalHeader = ''; loading = true;
 	modalContent = '';
 	viewMode = VIEW_STUDENT_BROWSER;
 	certificationName = '';
@@ -25,7 +25,7 @@ export default class LayoutManager extends LightningElement {
 	closeModal() {
 		const modal = this.template.querySelector('c-modal');
 		modal.hide();
-		}
+	}
 	handleNavItemSelected(event) {
 		const selectedItemName = event.detail.itemName;
 
@@ -54,5 +54,11 @@ export default class LayoutManager extends LightningElement {
 	}
 	get certPopularityView() {
 		return (this.viewMode === VIEW_POPULARITY);
+	}
+	handleLoading() {
+		this.loading = true;
+	}
+	handleDoneLoading() {
+		this.loading = false;
 	}
 }
