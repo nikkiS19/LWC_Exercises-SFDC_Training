@@ -23,7 +23,7 @@ import FIELD_REVIEW from '@salesforce/schema/TripReport__c.Review__c';
 const fieldsToLoad = [FIELD_DATE, FIELD_INSTRUCTOR, FIELD_NAME, FIELD_RATING, FIELD_REVIEWTYPE, FIELD_REVIEW];
 
 export default class TripReportFormAdvanced extends LightningElement {
-
+    saveButtonDisabled = true;
     error;
     _editorInitialized;
 
@@ -161,6 +161,13 @@ export default class TripReportFormAdvanced extends LightningElement {
                 });
         }
 
+    }
+    validateFields() {
+        const fields = Array.from(this.template.querySelectorAll('.validateMe'));
+        return fields.every((currentField) => currentField.checkValidity());
+    }
+    onBlur() {
+        this.saveButtonDisabled = !this.validateFields();
     }
 
 }
