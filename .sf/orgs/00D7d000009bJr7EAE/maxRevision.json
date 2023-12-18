@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 1075,
+  "serverMaxRevisionCounter": 1180,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -662,7 +662,7 @@
       "isNameObsolete": false
     },
     "FlexiPage__Course_Delivery_Record_Page": {
-      "serverRevisionCounter": 529,
+      "serverRevisionCounter": 1175,
       "lastRetrievedFromServer": 529,
       "memberType": "FlexiPage",
       "isNameObsolete": false
@@ -1535,6 +1535,30 @@
       "serverRevisionCounter": 1060,
       "lastRetrievedFromServer": null,
       "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__challenge_courseDeliveryForm": {
+      "serverRevisionCounter": 1177,
+      "lastRetrievedFromServer": 1177,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__challenge_courseDeliveryForm/challenge_courseDeliveryForm.js": {
+      "serverRevisionCounter": 1178,
+      "lastRetrievedFromServer": 1178,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__challenge_courseDeliveryForm/challenge_courseDeliveryForm.html": {
+      "serverRevisionCounter": 1179,
+      "lastRetrievedFromServer": 1179,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__challenge_courseDeliveryForm/challenge_courseDeliveryForm.js-meta.xml": {
+      "serverRevisionCounter": 1180,
+      "lastRetrievedFromServer": 1180,
+      "memberType": "LightningComponentResource",
       "isNameObsolete": false
     }
   }
