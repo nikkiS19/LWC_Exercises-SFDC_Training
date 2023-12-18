@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 1054,
+  "serverMaxRevisionCounter": 1075,
   "sourceMembers": {
     "ListView__Account.AllAccounts": {
       "serverRevisionCounter": 111,
@@ -326,13 +326,13 @@
       "isNameObsolete": false
     },
     "Profile__Admin": {
-      "serverRevisionCounter": 991,
+      "serverRevisionCounter": 1074,
       "lastRetrievedFromServer": 650,
       "memberType": "Profile",
       "isNameObsolete": false
     },
     "Profile__Training User": {
-      "serverRevisionCounter": 544,
+      "serverRevisionCounter": 1064,
       "lastRetrievedFromServer": 544,
       "memberType": "Profile",
       "isNameObsolete": false
@@ -572,7 +572,7 @@
       "isNameObsolete": false
     },
     "CustomApplication__Certification_Lightning": {
-      "serverRevisionCounter": 540,
+      "serverRevisionCounter": 1068,
       "lastRetrievedFromServer": 540,
       "memberType": "CustomApplication",
       "isNameObsolete": false
@@ -800,7 +800,7 @@
       "isNameObsolete": false
     },
     "Profile__B2B Reordering Portal Buyer Profile": {
-      "serverRevisionCounter": 542,
+      "serverRevisionCounter": 1063,
       "lastRetrievedFromServer": 542,
       "memberType": "Profile",
       "isNameObsolete": false
@@ -1244,32 +1244,32 @@
       "isNameObsolete": false
     },
     "ApexClass__Contacts": {
-      "serverRevisionCounter": 885,
-      "lastRetrievedFromServer": 885,
+      "serverRevisionCounter": 1075,
+      "lastRetrievedFromServer": 1075,
       "memberType": "ApexClass",
       "isNameObsolete": false
     },
     "LightningComponentBundle__challenge_contactDirectory": {
-      "serverRevisionCounter": 927,
-      "lastRetrievedFromServer": 927,
+      "serverRevisionCounter": 1069,
+      "lastRetrievedFromServer": 1069,
       "memberType": "LightningComponentBundle",
       "isNameObsolete": false
     },
     "LightningComponentResource__challenge_contactDirectory/challenge_contactDirectory.js": {
-      "serverRevisionCounter": 928,
-      "lastRetrievedFromServer": 928,
+      "serverRevisionCounter": 1070,
+      "lastRetrievedFromServer": 1070,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__challenge_contactDirectory/challenge_contactDirectory.js-meta.xml": {
-      "serverRevisionCounter": 929,
-      "lastRetrievedFromServer": 929,
+      "serverRevisionCounter": 1071,
+      "lastRetrievedFromServer": 1071,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
     "LightningComponentResource__challenge_contactDirectory/challenge_contactDirectory.html": {
-      "serverRevisionCounter": 930,
-      "lastRetrievedFromServer": 930,
+      "serverRevisionCounter": 1072,
+      "lastRetrievedFromServer": 1072,
       "memberType": "LightningComponentResource",
       "isNameObsolete": false
     },
@@ -1523,6 +1523,18 @@
       "serverRevisionCounter": 1044,
       "lastRetrievedFromServer": 1044,
       "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "CustomTab__Challenges": {
+      "serverRevisionCounter": 1062,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Challenges": {
+      "serverRevisionCounter": 1060,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
       "isNameObsolete": false
     }
   }

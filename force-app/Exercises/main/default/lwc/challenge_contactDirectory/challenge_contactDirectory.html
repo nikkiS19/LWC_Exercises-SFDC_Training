@@ -1,5 +1,11 @@
 <template>
   <lightning-card title="Contact Directory" icon-name="utility:user">
+    <lightning-button-menu slot="actions" onselect={onLetterSelect}>
+			<template for:each={letters} for:item="letter">
+				<lightning-menu-item label={letter} value={letter} key={letter} >
+				</lightning-menu-item>
+			</template>
+		</lightning-button-menu>
     <div >
       <lightning-datatable 
       key-field="Id" 
